@@ -15,6 +15,8 @@ namespace Repository
         {
             new Car { ID = 1, Color = "red", Wheels = 4, Headlights = false },
             new Car { ID = 2, Color = "blue", Wheels = 4, Headlights = true },
+            new Car { ID = 3, Color = "white", Wheels = 4, Headlights = true },
+            new Car { ID = 4, Color = "black", Wheels = 4, Headlights = true },
             // Add more cars...
         };
 
@@ -22,6 +24,7 @@ namespace Repository
         {
             new Bus { ID = 1, Color = "red" },
             new Bus { ID = 2, Color = "black" },
+            new Bus { ID = 3, Color = "white" },
             // Add more buses...
         };
 
@@ -29,6 +32,7 @@ namespace Repository
         {
             new Boat { ID = 1, Color = "blue" },
             new Boat { ID = 2, Color = "white" },
+            new Boat { ID = 3, Color = "yellow" },
             // Add more boats...
         };
         }
