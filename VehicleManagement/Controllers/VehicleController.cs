@@ -37,7 +37,7 @@ namespace VehicleManagement.Controllers
         }
 
         [HttpPost("cars/{carId}/headlights")]
-        public IActionResult ChangeCarHeadlightState(int carId, [FromBody] bool on)
+        public IActionResult ChangeCarHeadlightState(int carId, bool on)
         {
             vehicleRepository.TurnOnOffCarHeadlights(carId, on);
             return Ok();
