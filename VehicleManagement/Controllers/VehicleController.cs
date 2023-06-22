@@ -1,7 +1,7 @@
 using Interface;
 using Microsoft.AspNetCore.Mvc;
 
-namespace VehicleManagment.Controllers
+namespace VehicleManagement.Controllers
 {
 
     [ApiController]
